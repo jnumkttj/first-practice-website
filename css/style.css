@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary {
+  background: #FF5959;
+  border-radius: 5px;
+  border: none;
+  width: 160px;
+  padding: 16px 12px;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 20px;
+
+}
+
+.header {
+  background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url(/images/donation4.jpg);
+  background-repeat: none;
+  background-size: cover;
+  height: 100vh; 
+}
+.banner-text {
+  text-align: center;
+  padding: 325px 307px;
+}
+
+.banner-text-heading {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 79px;
+  margin-bottom: 30px;
+}
+
+.banner-text-sub {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.Donate-Today {
+  text-align: center;
+  margin: 130px 350px;
+}
+
+.section-title {
+  color: #121212
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  margin-bottom: 30px;
+}
+
+.section-sub {
+  color: #707070;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 50px;
+}
+
+.amount-box {
+  display: flex;
+  gap: 22px;
+  justify-content: center;
+  margin-bottom: 60px;
+
+}
+
+.amount {
+  color: #707070;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  background: #FAFAFA;
+  border-radius: 5px;
+  border: none;
+  width: 135px;
+  height: 123px;
+  padding: 44px 23px;
+}
