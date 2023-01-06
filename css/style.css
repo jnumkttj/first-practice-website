@@ -8,7 +8,7 @@
   background: #FF5959;
   border-radius: 5px;
   border: none;
-  width: 160px;
+  width: auto;
   padding: 16px 12px;
   color: #FFFFFF;
   font-weight: 400;
@@ -100,3 +100,132 @@ hr {
   opacity: 30%;
   margin-bottom: 30px;
 }
+
+.our-donate-plan {
+  text-align: center;
+}
+
+.donate-plan-container {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 200px 80px 200px;
+}
+
+.donate-plan-container .plans img{
+  margin-bottom: 32px;
+}
+
+.plans {
+  border: none;
+  border-radius: 5px;
+  width: 360px;
+  height: 350px;
+  padding: 90px 22px 20px;
+  text-align: left;
+}
+
+.plan-title {
+  color: #121212;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 20px;
+}
+
+.plan-sub {
+  color: #707070;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.text-image {
+  display: flex;
+  margin: 100px 325px 50px 325px;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.text {
+  text-align: left;
+}
+
+.image{
+  text-align: right;
+}
+
+.contact {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.form {
+  display: flex;
+  margin: auto;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  background: #FFF4D6;
+  width: 809px;
+  height: 200px;
+}
+
+.contact .form .btn-primary{
+  background: #FF5959;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  width: auto;
+  padding: 16px 12px;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+input[type=email] {
+  background: #D9D9D9;
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+  box-shadow: none;
+  width: 300px;
+  height: 57px;
+  outline: none;
+  padding-left: 20px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+
+
+.footer {
+  background-color: #121212;
+  width: auto;
+  height: 250px;
+}
+
+.footer-text {
+  text-align: center;
+  color: #FF5959;
+  font-family: 'Lobster', cursive;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  padding: 80px 0 30px 0;
+}
+
+.footer-sub {
+  color: #D9DBE1;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+
+
