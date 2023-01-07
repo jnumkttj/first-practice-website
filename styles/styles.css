@@ -17,7 +17,7 @@
 }
 
 .header {
-  background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url(images/donation4.jpg);
+  background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url("images/donation4.jpg");
   background-repeat: none;
   background-size: cover;
   height: 100vh; 
